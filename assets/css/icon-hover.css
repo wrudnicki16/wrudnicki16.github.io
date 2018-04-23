@@ -1,0 +1,86 @@
+.tooltip {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tooltiptext {
+  background-color: #39454b;
+  color: #fff;
+  bottom: -30px;
+  border-radius: 6px;
+  position: absolute;
+  visibility: hidden;
+  font-size: 16px;
+  padding: 3px 20px;
+} 
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #39454b transparent;
+}
+
+.tooltip .tooltiptext {
+  opacity:0;
+  transition: visibility 0s linear 0.5s, opacity 0.2s linear;
+}
+
+.icons i {
+  transition: 0.2s;
+}
+
+.icon-javascript:hover {
+  color: #f8df20;
+}
+
+.icon-ruby:hover {
+  color: #c00;
+}
+.icon-ruby-on-rails:hover {
+  color: #c00;
+}
+.icon-reactjs:hover {
+  color: #60dafb;
+}
+.icon-css3:hover {
+  color: #379ad6;
+}
+.icon-sass:hover {
+  color: #e98db8;
+}
+.icon-html5:hover {
+  color: #f1652a;
+}
+.icon-python:hover {
+  color: #346fa0;
+}
+.icon-jquery:hover {
+  color: #0a67ab;
+}
+.icon-mongodb:hover {
+  color: #80c563;
+}
+.icon-postgres:hover {
+  color: #0377be;
+}
+.icon-git:hover {
+  color: #f05133;
+}
+.icon-npm:hover {
+  color: #cd3534;
+}
+.icon-heroku:hover {
+  color: #7f57c2;
+}
