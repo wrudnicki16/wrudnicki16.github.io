@@ -41,6 +41,10 @@
   transition: 0.2s;
 }
 
+.icons i:hover {
+  transform: scale(1.05);
+}
+
 .icon-javascript:hover {
   color: #f8df20;
 }
