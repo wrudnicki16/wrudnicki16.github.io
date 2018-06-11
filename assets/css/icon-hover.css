@@ -34,7 +34,7 @@
 
 .tooltip .tooltiptext {
   opacity:0;
-  transition: visibility 0s linear 0.5s, opacity 0.2s linear;
+  /* transition: visibility 0s, opacity 0.1s linear; */
 }
 
 .icons i {
