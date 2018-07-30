@@ -2156,7 +2156,11 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
-	}
+  }
+  
+  #intro .content p {
+    text-shadow: 2px 2px 4px #000;
+  }
 
 /* One */
 
