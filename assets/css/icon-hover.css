@@ -81,6 +81,9 @@
 .icon-postgres:hover {
   color: #0377be;
 }
+.icon-aws:hover {
+  color: #f90;
+}
 .icon-git:hover {
   color: #f05133;
 }
